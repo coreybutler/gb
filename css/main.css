@@ -69,7 +69,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px "Karla", Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
@@ -140,15 +140,35 @@ nav a:hover {
    Graham's custom styles
    ========================================================================== */
 
-.header-container {
-	border-bottom: 1px solid #e2e2da;
+h1, h2 {
+	font-family: 'Karla', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-section#splash_message {
-	
+h1 {
+	margin: 10px 0;
+}
+
+h2 {font-size:1.2em;}
+
+a {
+	color: #009700;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3DBD0C;
+	text-decoration: underline;
 }
 
 
+
+section#splash {
+	max-width: 504px;
+	max-height: 628px;
+	margin: 0 auto;
+}
 
 
 
