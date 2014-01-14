@@ -1,3 +1,3 @@
 # GrahamButler.com
 
-This is the code base for grahamabutler.com
+This is the code base for grahambutler.com
